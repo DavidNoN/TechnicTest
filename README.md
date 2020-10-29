@@ -4,6 +4,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 This project was done as a technical test for Masiv company.
 
 ## Development server - Test it on Localhost
+Install the node modules, inside the folder type npm install. Must have installed Node.js
+https://nodejs.org/es/
+
+## Development server - Test it on Localhost
 
 Run `npm start` inside the cloned folder, for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
