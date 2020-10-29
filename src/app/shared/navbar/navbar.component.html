@@ -1,0 +1,13 @@
+<nav class="navbar navbar-dark bg-dark">
+  <a class="navbar-brand">Comic App</a>
+  <div class="form-inline">
+    <input class="form-control mr-sm-2"
+           type="search"
+           #term
+           placeholder="Enter comic number"
+           aria-label="Search"
+           (keyup)="search(term.value)"
+    >
+    <button class="btn btn-primary my-2 my-sm-0" (click)="search(term.value)">Search</button>
+  </div>
+</nav>

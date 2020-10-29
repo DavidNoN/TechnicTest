@@ -1,0 +1,50 @@
+<div class="container mt-5">
+
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Technical Test</title>
+  </head>
+  <body>
+  <div class="row card card-center">
+    <div class="card-header">
+      <h1>{{ data?.title }}</h1>
+    </div>
+  </div>
+  <hr>
+  <div class="row card-center">
+    <img class="card-img-top img-fluid" [src]="data?.img" [alt]="data?.title">
+  </div>
+  <div class="row card card-center">
+
+    <div class="card-body">
+      <h3 class="card-title">{{ data?.title }}</h3>
+      <h4 class="card-subtitle">{{ data?.alt }}</h4>
+      <div class="row">
+        <form class="card-center">
+          <p class="clasificacion">
+            <input id="radio1" type="radio" name="estrellas" value="5" (click)="feedBackComic(5)">
+            <label for="radio1">★</label>
+            <input id="radio2" type="radio" name="estrellas" value="4" (click)="feedBackComic(4)">
+            <label for="radio2">★</label>
+            <input id="radio3" type="radio" name="estrellas" value="3" (click)="feedBackComic(3)">
+            <label for="radio3">★</label>
+            <input id="radio4" type="radio" name="estrellas" value="2" (click)="feedBackComic(2)">
+            <label for="radio4">★</label>
+            <input id="radio5" type="radio" name="estrellas" value="1" (click)="feedBackComic(1)">
+            <label for="radio5">★</label>
+          </p>
+        </form>
+      </div>
+    </div>
+    <div class="card-footer center-text">
+      <span class="text-muted">{{ data?.month }} - {{ data?.day }} - {{ data?.year }}</span>
+    </div>
+
+  </div>
+  </body>
+  </html>
+</div>
