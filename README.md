@@ -1,7 +1,7 @@
 # TechnicalTest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.6.
-This project was done as a technical test for Masivian company.
+This project was done as a technical test for Masiv company.
 
 ## Development server - Test it on Localhost
 
